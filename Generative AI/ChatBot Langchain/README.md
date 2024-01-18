@@ -1,8 +1,4 @@
-# 🦜️🌐 WebLangChain
-
 This repo is an example of performing retrieval using the entire internet as a document store.
-
-**Try it live:** [weblangchain.vercel.app](https://weblangchain.vercel.app)
 
 ## ✅ Running locally
 
@@ -11,6 +7,7 @@ If you'd like to add or swap in different base retrievers (e.g. if you want to u
 
 1. Install backend dependencies: `poetry install`.
 2. Make sure to set your environment variables to configure the application:
+
 ```
 export OPENAI_API_KEY=
 export TAVILY_API_KEY=
@@ -74,11 +71,11 @@ https://smith.langchain.com/public/f4493d9c-218b-404a-a890-31c15c56fff3/r
 
 It's built using:
 
-- [Tavily](https://tavily.com) as a retriever
-- [LangChain](https://github.com/langchain-ai/langchain/) for orchestration
-- [LangServe](https://github.com/langchain-ai/langserve) to directly expose LangChain runnables as endpoints
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Next.js](https://nextjs.org) for the frontend
+-   [Tavily](https://tavily.com) as a retriever
+-   [LangChain](https://github.com/langchain-ai/langchain/) for orchestration
+-   [LangServe](https://github.com/langchain-ai/langserve) to directly expose LangChain runnables as endpoints
+-   [FastAPI](https://fastapi.tiangolo.com/)
+-   [Next.js](https://nextjs.org) for the frontend
 
 ## 🚀 Deployment
 
